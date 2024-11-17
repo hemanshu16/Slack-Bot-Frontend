@@ -1,0 +1,65 @@
+/* General Styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  /* Container box styles */
+  .Box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+    max-width: 90%;
+    box-sizing: border-box;
+  }
+  
+  /* Title styling */
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Card styling */
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #259cfe;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #259cfe;
+  }
+  
+  /* Optional: add focus and active states for accessibility */
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(20, 86, 239, 0.5);
+  }
+  
+  button:active {
+    background-color: #259cfe;
+  }
+  
